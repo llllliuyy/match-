@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "stdlib.h"
 int main() {
-    static signed int i = 5;
+    static signed int i = 10;
     char*p;
     int j=10;
     p=(char*)&i;
